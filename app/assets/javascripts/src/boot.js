@@ -1,11 +1,11 @@
 import 'babel-polyfill'
 import $ from './vendor/jquery'
 import page from 'page'
-import MessageRouter from './router/message'
+import CommentRouter from './router/comment'
 
 $(() => {
-  const messageRouter = new MessageRouter()
-  messageRouter.register()
+  const commentRouter = new CommentRouter()
+  commentRouter.register()
 
   page({click: false})
 })

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default class Main extends React.Component {
+export default class CommentBox extends React.Component {
 
   static get defaultProps() {
     return {
@@ -25,7 +25,7 @@ export default class Main extends React.Component {
   render() {
     return (
       <div>
-        hello!
+        Hello, world! I am CommentBox.
       </div>
     )
   }
