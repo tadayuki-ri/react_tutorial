@@ -8,10 +8,6 @@ githubで新しいリポジトリを作成
 ```sh
 $ git clone -b framework https://github.com/water23/react_tutorial.git
 ```
-gitリポジトリのURLを変更  
-```sh
-$ git remote set-url origin https://github.com/アカウント名/react_tutorial.git
-```
 
 * アプリケーションのセットアップ  
 ```sh
