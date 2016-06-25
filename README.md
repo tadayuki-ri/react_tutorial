@@ -1,9 +1,5 @@
 セットアップ
 ---
-* リポジトリの作成  
-githubで新しいリポジトリを作成  
-リポジトリ名はreact_tutorial
-
 * react_tutorialのリポジトリをクローン  
 ```sh
 $ git clone -b framework https://github.com/water23/react_tutorial.git
