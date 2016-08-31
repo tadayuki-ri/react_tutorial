@@ -2,7 +2,7 @@
 ---
 * react_tutorialのリポジトリをクローン  
 ```sh
-$ git clone -b framework https://github.com/water23/react_tutorial.git
+$ git clone -b framework https://github.com/Progate/react_tutorial.git
 ```
 
 * アプリケーションのセットアップ  
