@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
-
-gem 'rails', '4.2.6'
+gem 'rails', '5.0.3'
+# これでないとエラーが発生する
+# gem 'rails', '4.2.6'
+# gem 'rails', '4.2.6', github: 'rails/rails', branch: '4-2-stable'
 gem 'sqlite3'
 gem 'haml-rails'
 gem 'erb2haml'
@@ -15,7 +17,6 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
